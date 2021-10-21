@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Segoe UI, sans-serif;
+	font-size: 16px;
+}
+
+h1, h2{
+	font-size: 3.0em;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 45px;
+	text-indent: 0px;
+}
+
+nav#menu ul{
+	background-color: #C60007;
+	width: 100%;
+	position: fixed;
+	box-shadow: 1px 1px 20px #000000;
+	text-align: center;
+}
+
+nav#menu ul li{
+	display: inline;
+	line-height: 60px;
+
+}
+
+nav#menu a:link, a:visited{
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 20px;
+	text-shadow: 1px 1px 2px #000000;
+}
+
+nav#menu a:hover, a:active{
+	background-color: #9168BA;
+}
+
+
+#banner{
+	background-image: url("../images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 760px;
+
+}
+
+#intro-text {
+	padding-top: 200px;
+	text-transform: uppercase;
+	display: center;
+	color: #FFFFFF;
+	text-shadow: 3px 1px 3px #000000;
+	font-size: 3.0em;
+
+}
+
+#about{
+	background-color: #66290C;
+	font-size: 2.0em;
+	padding: 55px;
+	height: 760px;
+	text-indent: 60px;
+	line-height: 40px;
+}
+
+#textbase {
+	color: #ffffff; 
+	text-shadow: 3px 1px 3px rgb(0, 0, 0);
+}
+
+#par {
+	padding-top: 50px;
+}
+
+#gallery{
+	background-color: #2F9AC2;
+	height: 800px;
+	padding: 60px;
+	font-size: 2.0em;
+}
+
+#h12 {
+	color: rgb(255, 255,255);
+	text-shadow: 3px 1px 3px #000000;
+}
+
+#gallery .galeria{
+	width: 350px;
+	height: 250px;
+	border: 3px #FFF solid;
+	margin: 20px;
+	box-shadow: 5px 5px 20px #000;
+	border-radius: 10px;
+}
+
+#maps {
+	background-color: #66290C;
+	padding-top: 60px;
+}
+
+#contacts{
+	background-color: #2F9AC2;
+	height: 340px;
+	font-size: 1.8em;
+	padding: 60px;
+}
+#contacts div#textao {
+	color: #ffffff;
+	text-shadow: 1px 1px 3px #000000;
+}
+
+#contacts button div#mensagembox{
+	display: block;
+}
+
+#contacts label {
+	margin-left: 100px;	
+}
+
+#contacts textarea{
+	padding: 4;
+	width: 873px;
+	font-size: 0.7em;
+}
+
+#contacts button{
+	background-color: #EBB001;
+	border: 0;
+	padding: 20px;
+	font-size: 1.0em;
+	color:  #F23005;
+	margin-left: 550px;
+}
+
+
+
+footer#final ul {	
+	background-color: #C60007;
+	width: 100%;
+	padding-bottom: 15px;
+	text-align: center;
+
+
+}
+
+footer#final ul li {
+	color: #FFFFFF;
+	text-shadow: 1px 1px 3px rgb(0, 0, 0);
+	display: block;
+	}
